@@ -1,0 +1,822 @@
+[2026-01-02T08:33:23.145Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"1h","dryRun":true}
+[2026-01-02T08:33:23.182Z] [ERROR] [Jason:SelectSessions] Error selecting sessions {"error":"relation \"dev_sessions\" does not exist"}
+[2026-01-02T08:33:23.183Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T08:33:23.184Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T08:35:42.321Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":true}
+[2026-01-02T08:35:42.383Z] [INFO] [Jason:SelectSessions] Selected 0 sessions for extraction {"total":10,"filtered":0,"since":"24h","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:35:42.384Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T08:35:42.385Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T08:37:16.097Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":true}
+[2026-01-02T08:37:16.101Z] [ERROR] [Jason:CLI] No valid slugs provided {"provided":["terminal","unassigned"],"allowed":["ai-chad","ai-jen","ai-susan","ai-clair","ai-jason","dev-studio","kodiack-dashboard","kodiack-studio","nextbid","premier-group"]}
+[2026-01-02T08:42:12.312Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":true}
+[2026-01-02T08:42:12.376Z] [INFO] [Jason:SelectSessions] Selected 0 sessions for extraction {"total":15,"filtered":0,"since":"24h","status":"any","slugs":["dev-studio","kodiack-dashboard","ai-susan"]}
+[2026-01-02T08:42:12.377Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T08:42:12.377Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T08:43:09.611Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"7d","dryRun":true}
+[2026-01-02T08:43:09.740Z] [INFO] [Jason:SelectSessions] Selected 0 sessions for extraction {"total":30,"filtered":0,"since":"7d","status":"any","slugs":["dev-studio","kodiack-dashboard","ai-susan"]}
+[2026-01-02T08:43:09.740Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T08:43:09.741Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T08:47:58.415Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"7d","dryRun":true}
+[2026-01-02T08:47:58.550Z] [INFO] [Jason:SelectSessions] Selected 8 sessions for extraction {"total":50,"filtered":8,"since":"7d","status":"processed","slugs":["dev-studio","kodiack-dashboard","ai-susan"]}
+[2026-01-02T08:47:58.550Z] [INFO] [Jason:CLI] Found 8 sessions to process
+[2026-01-02T08:47:58.550Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:47:58.567Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344"}
+[2026-01-02T08:47:58.567Z] [WARN] [Jason:CLI] No transcript content for session 385d80b5-44b8-4620-b399-c99258c53344
+[2026-01-02T08:47:58.567Z] [INFO] [Jason:CLI] Processing session: f1181807-741a-425f-b851-a11af406ce8c {"slug":"ai-jason","created":"2026-01-02T08:24:12.178Z"}
+[2026-01-02T08:47:58.603Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c"}
+[2026-01-02T08:47:58.603Z] [WARN] [Jason:CLI] No transcript content for session f1181807-741a-425f-b851-a11af406ce8c
+[2026-01-02T08:47:58.603Z] [INFO] [Jason:CLI] Processing session: ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e {"slug":"ai-susan","created":"2026-01-02T07:59:12.176Z"}
+[2026-01-02T08:47:58.637Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e"}
+[2026-01-02T08:47:58.637Z] [WARN] [Jason:CLI] No transcript content for session ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e
+[2026-01-02T08:47:58.637Z] [INFO] [Jason:CLI] Processing session: 92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd {"slug":"dev-studio","created":"2026-01-02T07:49:12.174Z"}
+[2026-01-02T08:47:58.667Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd"}
+[2026-01-02T08:47:58.667Z] [WARN] [Jason:CLI] No transcript content for session 92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd
+[2026-01-02T08:47:58.667Z] [INFO] [Jason:CLI] Processing session: d222c0ae-9bef-4247-ad48-31ba3b39416d {"slug":"kodiack-dashboard","created":"2026-01-02T07:39:12.178Z"}
+[2026-01-02T08:47:58.698Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d"}
+[2026-01-02T08:47:58.698Z] [WARN] [Jason:CLI] No transcript content for session d222c0ae-9bef-4247-ad48-31ba3b39416d
+[2026-01-02T08:47:58.698Z] [INFO] [Jason:CLI] Processing session: 5c5e6ea5-86e6-4f23-984a-1bce6955c565 {"slug":"dev-studio","created":"2026-01-02T07:34:12.255Z"}
+[2026-01-02T08:47:58.727Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"5c5e6ea5-86e6-4f23-984a-1bce6955c565"}
+[2026-01-02T08:47:58.727Z] [WARN] [Jason:CLI] No transcript content for session 5c5e6ea5-86e6-4f23-984a-1bce6955c565
+[2026-01-02T08:47:58.728Z] [INFO] [Jason:CLI] Processing session: b7375392-b336-46ae-a4ec-1f5d7eb23f77 {"slug":"kodiack-dashboard","created":"2026-01-02T07:29:12.209Z"}
+[2026-01-02T08:47:58.753Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"b7375392-b336-46ae-a4ec-1f5d7eb23f77"}
+[2026-01-02T08:47:58.753Z] [WARN] [Jason:CLI] No transcript content for session b7375392-b336-46ae-a4ec-1f5d7eb23f77
+[2026-01-02T08:47:58.753Z] [INFO] [Jason:CLI] Processing session: 17d47305-22c9-442c-99b9-74c5586c0097 {"slug":"kodiack-dashboard","created":"2026-01-02T06:11:10.461Z"}
+[2026-01-02T08:47:58.785Z] [WARN] [Jason:LoadTranscript] No transcript content found for session {"sessionId":"17d47305-22c9-442c-99b9-74c5586c0097"}
+[2026-01-02T08:47:58.786Z] [WARN] [Jason:CLI] No transcript content for session 17d47305-22c9-442c-99b9-74c5586c0097
+[2026-01-02T08:47:58.788Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=8 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T08:51:08.582Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"7d","dryRun":true}
+[2026-01-02T08:51:08.677Z] [INFO] [Jason:SelectSessions] Selected 5 sessions for extraction {"total":25,"filtered":5,"since":"7d","status":"processed","slugs":["dev-studio","kodiack-dashboard","ai-susan"]}
+[2026-01-02T08:51:08.677Z] [INFO] [Jason:CLI] Found 5 sessions to process
+[2026-01-02T08:51:08.677Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:51:08.682Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:51:08.713Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:51:08.718Z] [INFO] [Jason:CLI] [DRY RUN] Would insert 16 items: {"todos":4,"bugs":3,"worklogs":8,"decisions":1}
+[2026-01-02T08:51:08.719Z] [INFO] [Jason:CLI] Processing session: f1181807-741a-425f-b851-a11af406ce8c {"slug":"ai-jason","created":"2026-01-02T08:24:12.178Z"}
+[2026-01-02T08:51:08.725Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c","contentLength":200860,"slug":"ai-jason"}
+[2026-01-02T08:51:08.737Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c","total":17,"todos":7,"bugs":5,"decisions":1,"worklogs":4}
+[2026-01-02T08:51:08.738Z] [WARN] [Jason:ValidateItems] Validation rejected 1 items {"valid":16,"invalid":1}
+[2026-01-02T08:51:08.739Z] [WARN] [Jason:CLI] 1 items failed validation {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c","reasons":["/content must NOT have more than 10000 characters"]}
+[2026-01-02T08:51:08.739Z] [INFO] [Jason:CLI] [DRY RUN] Would insert 16 items: {"todos":7,"bugs":4,"worklogs":4,"decisions":1}
+[2026-01-02T08:51:08.740Z] [INFO] [Jason:CLI] Processing session: ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e {"slug":"ai-susan","created":"2026-01-02T07:59:12.176Z"}
+[2026-01-02T08:51:08.744Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e","contentLength":213336,"slug":"ai-susan"}
+[2026-01-02T08:51:08.757Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e","total":30,"todos":11,"bugs":5,"decisions":3,"worklogs":11}
+[2026-01-02T08:51:08.761Z] [WARN] [Jason:ValidateItems] Validation rejected 6 items {"valid":24,"invalid":6}
+[2026-01-02T08:51:08.762Z] [WARN] [Jason:CLI] 6 items failed validation {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e","reasons":["/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters"]}
+[2026-01-02T08:51:08.762Z] [INFO] [Jason:CLI] [DRY RUN] Would insert 24 items: {"todos":9,"bugs":2,"worklogs":11,"decisions":2}
+[2026-01-02T08:51:08.762Z] [INFO] [Jason:CLI] Processing session: 92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd {"slug":"dev-studio","created":"2026-01-02T07:49:12.174Z"}
+[2026-01-02T08:51:08.765Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd","contentLength":84786,"slug":"dev-studio"}
+[2026-01-02T08:51:08.770Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd","total":11,"todos":7,"bugs":2,"decisions":1,"worklogs":1}
+[2026-01-02T08:51:08.770Z] [INFO] [Jason:CLI] [DRY RUN] Would insert 11 items: {"todos":7,"bugs":2,"worklogs":1,"decisions":1}
+[2026-01-02T08:51:08.771Z] [INFO] [Jason:CLI] Processing session: d222c0ae-9bef-4247-ad48-31ba3b39416d {"slug":"kodiack-dashboard","created":"2026-01-02T07:39:12.178Z"}
+[2026-01-02T08:51:08.777Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d","contentLength":319058,"slug":"kodiack-dashboard"}
+[2026-01-02T08:51:08.794Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d","total":33,"todos":16,"bugs":6,"decisions":3,"worklogs":8}
+[2026-01-02T08:51:08.804Z] [WARN] [Jason:ValidateItems] Validation rejected 3 items {"valid":30,"invalid":3}
+[2026-01-02T08:51:08.805Z] [WARN] [Jason:CLI] 3 items failed validation {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d","reasons":["/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters"]}
+[2026-01-02T08:51:08.805Z] [INFO] [Jason:CLI] [DRY RUN] Would insert 30 items: {"todos":16,"bugs":3,"worklogs":8,"decisions":3}
+[2026-01-02T08:51:08.806Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=5 sessions_processed=5 todos=43 bugs=14 worklogs=32 decisions=8 duplicates=0
+[2026-01-02T08:58:15.961Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:16.023Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:16.023Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:16.023Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:16.027Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:16.033Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:16.054Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:16.088Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:16.120Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:16.158Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:16.186Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:16.220Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:16.248Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:16.275Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:16.301Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.328Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.355Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.382Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.409Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.474Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.530Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.557Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:16.557Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:16.571Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:16.572Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:19.054Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:19.122Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:19.123Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:19.123Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:19.128Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:19.137Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:19.169Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:19.200Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:19.235Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:19.270Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:19.305Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:19.344Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:19.375Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:19.410Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:19.447Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.484Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.512Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.538Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.562Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.590Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.619Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.647Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:19.647Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:19.664Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:19.664Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:22.187Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:22.248Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:22.248Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:22.248Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:22.252Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:22.259Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:22.285Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:22.314Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:22.349Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:22.384Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:22.415Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:22.450Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:22.482Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:22.517Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:22.550Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.581Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.616Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.642Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.667Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.696Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.734Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.762Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:22.762Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:22.780Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:22.781Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:25.359Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:25.431Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:25.432Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:25.432Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:25.437Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:25.445Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:25.469Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:25.501Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:25.531Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:25.565Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:25.596Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:25.628Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:25.653Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:25.682Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:25.714Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.747Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.784Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.818Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.846Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.875Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.900Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.927Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:25.928Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:25.942Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:25.943Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:28.506Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:28.584Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:28.584Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:28.585Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:28.590Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:28.600Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:28.627Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:28.663Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:28.696Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:28.722Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:28.752Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:28.784Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:28.816Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:28.850Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:28.882Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:28.913Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:28.942Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:28.971Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:28.998Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:29.025Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:29.053Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:29.080Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:29.080Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:29.094Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:29.095Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:31.699Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:31.771Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:31.772Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:31.772Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:31.777Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:31.785Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:31.809Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:31.845Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:31.873Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:31.908Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:31.947Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:31.976Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:32.008Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:32.041Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:32.074Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.100Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.129Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.158Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.183Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.210Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.235Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.263Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:32.264Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:32.278Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:32.279Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:34.760Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:34.827Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:34.828Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:34.829Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:34.833Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:34.839Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:34.862Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:34.892Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:34.920Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:34.949Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:34.980Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:35.015Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:35.041Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:35.070Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:35.099Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.128Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.168Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.215Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.245Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.271Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.300Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.330Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:35.331Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:35.349Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:35.349Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:37.871Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:37.930Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:37.930Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:37.930Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:37.934Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:37.941Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:37.963Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:37.997Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:38.028Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:38.057Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:38.085Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:38.118Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:38.145Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:38.178Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:38.207Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.237Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.267Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.298Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.326Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.355Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.383Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.408Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:38.408Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:38.425Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:38.426Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:40.989Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:41.055Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:41.056Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:41.057Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:41.062Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:41.069Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:41.098Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:41.136Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:41.172Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:41.216Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:41.252Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:41.286Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:41.320Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:41.355Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:41.388Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.420Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.450Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.478Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.506Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.532Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.559Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.585Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:41.586Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:41.599Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:41.600Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:44.121Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:44.182Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:44.183Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:44.183Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:44.186Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:44.192Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:44.220Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:44.249Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:44.278Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:44.303Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:44.332Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:44.361Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:44.393Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:44.424Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:44.453Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.481Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.517Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.551Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.582Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.616Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.641Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.674Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:44.674Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:44.724Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:44.725Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:47.276Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:47.351Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:47.352Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:47.352Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:47.357Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:47.367Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:47.397Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:47.435Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:47.466Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:47.496Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:47.524Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:47.552Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:47.582Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:47.621Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:47.649Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.676Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.704Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.736Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.770Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.801Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.832Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.861Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:47.861Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:47.877Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:47.878Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:50.430Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:50.514Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:50.515Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:50.515Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:50.521Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:50.530Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:50.568Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:50.607Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:50.653Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:50.695Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:50.732Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:50.771Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:50.802Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:50.833Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:50.869Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:50.902Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:50.931Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:50.960Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:50.987Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:51.016Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:51.047Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:51.080Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:51.080Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:51.095Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:51.096Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:53.496Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:53.555Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:53.556Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:53.557Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:53.561Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:53.568Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:53.590Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:53.623Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:53.652Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:53.682Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:53.706Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:53.735Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:53.763Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:53.787Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:53.814Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:53.841Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:53.865Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:53.891Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:53.915Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:53.946Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:53.982Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:54.011Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:54.011Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:54.030Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:54.032Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:56.628Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:56.699Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:56.699Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:56.700Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:56.703Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:56.710Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:56.740Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:56.775Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:56.815Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:56.849Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:56.877Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:56.904Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:56.938Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:56.972Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:58:57.007Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.039Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.074Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.106Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.141Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.171Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.203Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.236Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:58:57.236Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:58:57.252Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:58:57.253Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:58:59.750Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:58:59.815Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:58:59.816Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:58:59.816Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:58:59.819Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:58:59.826Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:58:59.851Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:59.884Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:59.914Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:59.942Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:58:59.969Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:58:59.996Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:00.031Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:00.061Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:59:00.093Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.128Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.166Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.204Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.242Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.280Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.322Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.354Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:00.354Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:59:00.376Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:59:00.377Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:59:02.977Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:59:03.050Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:59:03.052Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:59:03.052Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:59:03.056Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:59:03.062Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:59:03.090Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:03.124Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:03.154Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:03.185Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:03.218Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:03.258Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:03.292Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:03.329Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:59:03.367Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.392Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.424Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.452Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.480Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.510Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.538Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.568Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:03.568Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:59:03.583Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:59:03.584Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:59:06.096Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:59:06.163Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:59:06.164Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:59:06.164Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:59:06.169Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:59:06.179Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:59:06.207Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:06.247Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:06.281Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:06.313Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:06.342Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:06.375Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:06.404Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:06.433Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:59:06.460Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.491Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.531Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.569Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.599Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.629Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.658Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.685Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:06.686Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:59:06.702Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:59:06.703Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:59:09.161Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:59:09.221Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:59:09.222Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:59:09.222Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:59:09.226Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:59:09.232Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:59:09.259Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:09.295Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:09.331Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:09.366Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:09.403Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:09.439Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:09.479Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:09.525Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:59:09.556Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.584Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.614Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.646Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.680Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.714Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.744Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.780Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:09.780Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:59:09.794Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:59:09.795Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:59:12.371Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:59:12.448Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:59:12.448Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:59:12.449Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:59:12.453Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:59:12.461Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:59:12.487Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:12.530Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:12.568Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:12.601Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:12.636Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:12.673Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:12.708Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:12.737Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:59:12.775Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:12.806Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:12.841Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:12.878Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:12.914Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:12.955Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:12.987Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:13.021Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:13.021Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:59:13.042Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:59:13.043Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:59:15.489Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:59:15.563Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:59:15.563Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:59:15.564Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:59:15.568Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:59:15.574Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:59:15.614Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:15.655Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:15.697Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:15.728Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:15.762Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:15.795Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:15.826Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:15.854Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:59:15.880Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:15.909Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:15.938Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:15.966Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:15.999Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:16.039Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:16.068Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:16.103Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:16.103Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:59:16.119Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:59:16.120Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T08:59:18.659Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T08:59:18.742Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T08:59:18.743Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T08:59:18.743Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T08:59:18.747Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T08:59:18.753Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T08:59:18.786Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:18.819Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:18.856Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:18.908Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T08:59:18.962Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:19.012Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:19.052Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T08:59:19.084Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T08:59:19.125Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.158Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.199Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.242Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.286Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.327Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.364Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.402Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T08:59:19.403Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T08:59:19.420Z] [ERROR] [Jason:MarkExtracted] Failed to mark session as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","error":"column \"extracted_at\" of relation \"dev_ai_sessions\" does not exist"}
+[2026-01-02T08:59:19.421Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T09:03:51.611Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"scheduled","since":"30m","dryRun":false}
+[2026-01-02T09:03:51.689Z] [INFO] [Jason:SelectSessions] Selected 1 sessions for extraction {"total":3,"filtered":1,"since":"30m","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T09:03:51.690Z] [INFO] [Jason:CLI] Found 1 sessions to process
+[2026-01-02T09:03:51.690Z] [INFO] [Jason:CLI] Processing session: 385d80b5-44b8-4620-b399-c99258c53344 {"slug":"ai-jason","created":"2026-01-02T08:39:12.178Z"}
+[2026-01-02T09:03:51.695Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","contentLength":117948,"slug":"ai-jason"}
+[2026-01-02T09:03:51.703Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","total":16,"todos":4,"bugs":3,"decisions":1,"worklogs":8}
+[2026-01-02T09:03:51.736Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T09:03:51.779Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T09:03:51.823Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T09:03:51.863Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Todos"}
+[2026-01-02T09:03:51.907Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T09:03:51.943Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T09:03:51.975Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Bugs Open"}
+[2026-01-02T09:03:52.009Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Decisions"}
+[2026-01-02T09:03:52.040Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.074Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.108Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.150Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.188Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.216Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.252Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.290Z] [ERROR] [Jason:InsertStaging] Insert failed {"error":"column \"title\" of relation \"dev_ai_smart_extractions\" does not exist","bucket":"Work Log"}
+[2026-01-02T09:03:52.290Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":0,"duplicates":0}
+[2026-01-02T09:03:52.314Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"385d80b5-44b8-4620-b399-c99258c53344","items":0,"duplicates":0}
+[2026-01-02T09:03:52.315Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=1 sessions_processed=1 todos=4 bugs=3 worklogs=8 decisions=1 duplicates=0
+[2026-01-02T09:04:37.527Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":false}
+[2026-01-02T09:04:37.594Z] [INFO] [Jason:SelectSessions] Selected 2 sessions for extraction {"total":10,"filtered":2,"since":"24h","status":"processed","slugs":["kodiack-dashboard","ai-susan","ai-jason"]}
+[2026-01-02T09:04:37.594Z] [INFO] [Jason:CLI] Found 2 sessions to process
+[2026-01-02T09:04:37.594Z] [INFO] [Jason:CLI] Processing session: f1181807-741a-425f-b851-a11af406ce8c {"slug":"ai-jason","created":"2026-01-02T08:24:12.178Z"}
+[2026-01-02T09:04:37.600Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c","contentLength":200860,"slug":"ai-jason"}
+[2026-01-02T09:04:37.613Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c","total":17,"todos":7,"bugs":5,"decisions":1,"worklogs":4}
+[2026-01-02T09:04:37.619Z] [WARN] [Jason:ValidateItems] Validation rejected 1 items {"valid":16,"invalid":1}
+[2026-01-02T09:04:37.619Z] [WARN] [Jason:CLI] 1 items failed validation {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c","reasons":["/content must NOT have more than 10000 characters"]}
+[2026-01-02T09:04:37.687Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":15,"duplicates":1}
+[2026-01-02T09:04:37.697Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"f1181807-741a-425f-b851-a11af406ce8c","items":15,"duplicates":1}
+[2026-01-02T09:04:37.697Z] [INFO] [Jason:CLI] Processing session: ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e {"slug":"ai-susan","created":"2026-01-02T07:59:12.176Z"}
+[2026-01-02T09:04:37.703Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e","contentLength":213336,"slug":"ai-susan"}
+[2026-01-02T09:04:37.718Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e","total":30,"todos":11,"bugs":5,"decisions":3,"worklogs":11}
+[2026-01-02T09:04:37.723Z] [WARN] [Jason:ValidateItems] Validation rejected 6 items {"valid":24,"invalid":6}
+[2026-01-02T09:04:37.723Z] [WARN] [Jason:CLI] 6 items failed validation {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e","reasons":["/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters"]}
+[2026-01-02T09:04:37.789Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":24,"duplicates":0}
+[2026-01-02T09:04:37.795Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"ea2c90ab-fa01-4e5f-80da-0356d7bf0b5e","items":24,"duplicates":0}
+[2026-01-02T09:04:37.796Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=2 sessions_processed=2 todos=16 bugs=6 worklogs=15 decisions=3 duplicates=1
+[2026-01-02T09:31:47.381Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":false}
+[2026-01-02T09:31:47.716Z] [INFO] [Jason:SelectSessions] Selected 7 sessions for extraction {"total":50,"filtered":7,"since":"24h","status":"processed","slugs":["ai-chad","ai-jen","ai-susan"]}
+[2026-01-02T09:31:47.717Z] [INFO] [Jason:CLI] Found 7 sessions to process
+[2026-01-02T09:31:47.718Z] [INFO] [Jason:CLI] Processing session: c0efbde7-f6a5-4834-8a90-a7031bccde1c {"slug":"ai-jason","created":"2026-01-02T09:09:12.192Z"}
+[2026-01-02T09:31:47.725Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"c0efbde7-f6a5-4834-8a90-a7031bccde1c","contentLength":283714,"slug":"ai-jason"}
+[2026-01-02T09:31:47.740Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"c0efbde7-f6a5-4834-8a90-a7031bccde1c","total":24,"todos":9,"bugs":3,"decisions":2,"worklogs":10}
+[2026-01-02T09:31:47.744Z] [WARN] [Jason:ValidateItems] Validation rejected 2 items {"valid":22,"invalid":2}
+[2026-01-02T09:31:47.745Z] [WARN] [Jason:CLI] 2 items failed validation {"sessionId":"c0efbde7-f6a5-4834-8a90-a7031bccde1c","reasons":["title appears to be garbage","title appears to be garbage"]}
+[2026-01-02T09:31:47.853Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":22,"duplicates":0}
+[2026-01-02T09:31:47.861Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"c0efbde7-f6a5-4834-8a90-a7031bccde1c","items":22,"duplicates":0}
+[2026-01-02T09:31:47.862Z] [INFO] [Jason:CLI] Processing session: 54e006df-7323-4b89-a6cb-9fa9bdea720e {"slug":"kodiack-dashboard","created":"2026-01-02T08:59:12.211Z"}
+[2026-01-02T09:31:47.870Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"54e006df-7323-4b89-a6cb-9fa9bdea720e","contentLength":384752,"slug":"kodiack-dashboard"}
+[2026-01-02T09:31:47.895Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"54e006df-7323-4b89-a6cb-9fa9bdea720e","total":28,"todos":14,"bugs":8,"decisions":2,"worklogs":4}
+[2026-01-02T09:31:47.898Z] [WARN] [Jason:ValidateItems] Validation rejected 1 items {"valid":27,"invalid":1}
+[2026-01-02T09:31:47.898Z] [WARN] [Jason:CLI] 1 items failed validation {"sessionId":"54e006df-7323-4b89-a6cb-9fa9bdea720e","reasons":["/content must NOT have more than 10000 characters"]}
+[2026-01-02T09:31:48.010Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":24,"duplicates":3}
+[2026-01-02T09:31:48.018Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"54e006df-7323-4b89-a6cb-9fa9bdea720e","items":24,"duplicates":3}
+[2026-01-02T09:31:48.018Z] [INFO] [Jason:CLI] Processing session: 92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd {"slug":"dev-studio","created":"2026-01-02T07:49:12.174Z"}
+[2026-01-02T09:31:48.021Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd","contentLength":84786,"slug":"dev-studio"}
+[2026-01-02T09:31:48.025Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd","total":11,"todos":7,"bugs":2,"decisions":1,"worklogs":1}
+[2026-01-02T09:31:48.058Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":11,"duplicates":0}
+[2026-01-02T09:31:48.061Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"92e225ae-b6f1-4bbb-8f2b-88ab29e8dddd","items":11,"duplicates":0}
+[2026-01-02T09:31:48.061Z] [INFO] [Jason:CLI] Processing session: d222c0ae-9bef-4247-ad48-31ba3b39416d {"slug":"kodiack-dashboard","created":"2026-01-02T07:39:12.178Z"}
+[2026-01-02T09:31:48.067Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d","contentLength":319058,"slug":"kodiack-dashboard"}
+[2026-01-02T09:31:48.080Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d","total":33,"todos":16,"bugs":6,"decisions":3,"worklogs":8}
+[2026-01-02T09:31:48.087Z] [WARN] [Jason:ValidateItems] Validation rejected 3 items {"valid":30,"invalid":3}
+[2026-01-02T09:31:48.087Z] [WARN] [Jason:CLI] 3 items failed validation {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d","reasons":["/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters"]}
+[2026-01-02T09:31:48.178Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":29,"duplicates":1}
+[2026-01-02T09:31:48.185Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"d222c0ae-9bef-4247-ad48-31ba3b39416d","items":29,"duplicates":1}
+[2026-01-02T09:31:48.186Z] [INFO] [Jason:CLI] Processing session: 5c5e6ea5-86e6-4f23-984a-1bce6955c565 {"slug":"dev-studio","created":"2026-01-02T07:34:12.255Z"}
+[2026-01-02T09:31:48.189Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"5c5e6ea5-86e6-4f23-984a-1bce6955c565","contentLength":44328,"slug":"dev-studio"}
+[2026-01-02T09:31:48.192Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"5c5e6ea5-86e6-4f23-984a-1bce6955c565","total":2,"todos":1,"bugs":1,"decisions":0,"worklogs":0}
+[2026-01-02T09:31:48.193Z] [WARN] [Jason:ValidateItems] Validation rejected 2 items {"valid":0,"invalid":2}
+[2026-01-02T09:31:48.193Z] [WARN] [Jason:CLI] 2 items failed validation {"sessionId":"5c5e6ea5-86e6-4f23-984a-1bce6955c565","reasons":["/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters"]}
+[2026-01-02T09:31:48.194Z] [INFO] [Jason:CLI] No valid items extracted from session 5c5e6ea5-86e6-4f23-984a-1bce6955c565
+[2026-01-02T09:31:48.194Z] [INFO] [Jason:CLI] Processing session: b7375392-b336-46ae-a4ec-1f5d7eb23f77 {"slug":"kodiack-dashboard","created":"2026-01-02T07:29:12.209Z"}
+[2026-01-02T09:31:48.196Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"b7375392-b336-46ae-a4ec-1f5d7eb23f77","contentLength":72574,"slug":"kodiack-dashboard"}
+[2026-01-02T09:31:48.200Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"b7375392-b336-46ae-a4ec-1f5d7eb23f77","total":0,"todos":0,"bugs":0,"decisions":0,"worklogs":0}
+[2026-01-02T09:31:48.201Z] [INFO] [Jason:CLI] No valid items extracted from session b7375392-b336-46ae-a4ec-1f5d7eb23f77
+[2026-01-02T09:31:48.201Z] [INFO] [Jason:CLI] Processing session: 17d47305-22c9-442c-99b9-74c5586c0097 {"slug":"kodiack-dashboard","created":"2026-01-02T06:11:10.461Z"}
+[2026-01-02T09:31:48.208Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"17d47305-22c9-442c-99b9-74c5586c0097","contentLength":214985,"slug":"kodiack-dashboard"}
+[2026-01-02T09:31:48.216Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"17d47305-22c9-442c-99b9-74c5586c0097","total":16,"todos":10,"bugs":3,"decisions":0,"worklogs":3}
+[2026-01-02T09:31:48.266Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":14,"duplicates":2}
+[2026-01-02T09:31:48.272Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"17d47305-22c9-442c-99b9-74c5586c0097","items":14,"duplicates":2}
+[2026-01-02T09:31:48.273Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=7 sessions_processed=5 todos=55 bugs=18 worklogs=25 decisions=8 duplicates=6
+[2026-01-02T15:30:56.155Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:31:16.383Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"2h","dryRun":false}
+[2026-01-02T15:31:16.428Z] [INFO] [Jason:SelectSessions] No sessions found matching criteria {"since":"2h","status":"processed"}
+[2026-01-02T15:31:16.428Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T15:31:16.429Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T15:31:54.103Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"7d","dryRun":false}
+[2026-01-02T15:31:54.200Z] [INFO] [Jason:SelectSessions] Selected 2 sessions for extraction {"total":25,"filtered":2,"since":"7d","status":"processed","slugs":["kodiack-dashboard","ai-susan","dev-studio"]}
+[2026-01-02T15:31:54.200Z] [INFO] [Jason:CLI] Found 2 sessions to process
+[2026-01-02T15:31:54.200Z] [INFO] [Jason:CLI] Processing session: 5c5e6ea5-86e6-4f23-984a-1bce6955c565 {"slug":"dev-studio","created":"2026-01-02T07:34:12.255Z"}
+[2026-01-02T15:31:54.209Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"5c5e6ea5-86e6-4f23-984a-1bce6955c565","contentLength":44328,"slug":"dev-studio"}
+[2026-01-02T15:31:54.242Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"5c5e6ea5-86e6-4f23-984a-1bce6955c565","total":2,"todos":1,"bugs":1,"decisions":0,"worklogs":0}
+[2026-01-02T15:31:54.252Z] [WARN] [Jason:ValidateItems] Validation rejected 2 items {"valid":0,"invalid":2}
+[2026-01-02T15:31:54.253Z] [WARN] [Jason:CLI] 2 items failed validation {"sessionId":"5c5e6ea5-86e6-4f23-984a-1bce6955c565","reasons":["/content must NOT have more than 10000 characters","/content must NOT have more than 10000 characters"]}
+[2026-01-02T15:31:54.253Z] [INFO] [Jason:CLI] No valid items extracted from session 5c5e6ea5-86e6-4f23-984a-1bce6955c565
+[2026-01-02T15:31:54.254Z] [INFO] [Jason:CLI] Processing session: b7375392-b336-46ae-a4ec-1f5d7eb23f77 {"slug":"kodiack-dashboard","created":"2026-01-02T07:29:12.209Z"}
+[2026-01-02T15:31:54.261Z] [INFO] [Jason:LoadTranscript] Loaded transcript from session {"sessionId":"b7375392-b336-46ae-a4ec-1f5d7eb23f77","contentLength":72574,"slug":"kodiack-dashboard"}
+[2026-01-02T15:31:54.265Z] [INFO] [Jason:ExtractItems] Rule-based extraction complete {"sessionId":"b7375392-b336-46ae-a4ec-1f5d7eb23f77","total":0,"todos":0,"bugs":0,"decisions":0,"worklogs":0}
+[2026-01-02T15:31:54.266Z] [INFO] [Jason:CLI] No valid items extracted from session b7375392-b336-46ae-a4ec-1f5d7eb23f77
+[2026-01-02T15:31:54.269Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=2 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T15:33:12.712Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.714Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.714Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.714Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.715Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.715Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.715Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.716Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.716Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.716Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.716Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.716Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.718Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.766Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.786Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.793Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.794Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.794Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.794Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.794Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.795Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.795Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.795Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.795Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.795Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.795Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.796Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.796Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.796Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.796Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.796Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.796Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.871Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.874Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.874Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.875Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T15:33:12.875Z] [WARN] [Jason:ResolveProject] Could not resolve project slug {"slug":"ai-jason"}
+[2026-01-02T21:50:05.484Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"1h","dryRun":true}
+[2026-01-02T21:50:05.546Z] [INFO] [Jason:SelectSessions] No cleaned sessions found {"since":"1h"}
+[2026-01-02T21:50:05.546Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T21:50:05.547Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T21:52:58.838Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":false}
+[2026-01-02T21:52:58.877Z] [INFO] [Jason:SelectSessions] No cleaned sessions found {"since":"24h"}
+[2026-01-02T21:52:58.878Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T21:52:58.878Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T22:02:12.652Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":false}
+[2026-01-02T22:02:12.776Z] [INFO] [Jason:SelectSessions] Selected 0 sessions for extraction {"total":30,"afterSlugFilter":0,"withCleanTranscript":0,"since":"24h","slugs":["kodiack-dashboard","ai-jason","ai-susan"]}
+[2026-01-02T22:02:12.777Z] [INFO] [Jason:CLI] Found 0 sessions to process
+[2026-01-02T22:02:12.777Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=0 sessions_processed=0 todos=0 bugs=0 worklogs=0 decisions=0 duplicates=0
+[2026-01-02T22:04:00.688Z] [INFO] [Jason:SelectSessions] Selected 0 sessions for extraction {"total":15,"afterSlugFilter":0,"withCleanTranscript":0,"since":"24h","slugs":["kodiack-dashboard","ai-jason"]}
+[2026-01-02T22:06:03.214Z] [INFO] [Jason:CLI] Starting extraction run {"mode":"manual","since":"24h","dryRun":false}
+[2026-01-02T22:06:03.330Z] [INFO] [Jason:SelectSessions] Selected 10 sessions for extraction {"total":30,"afterSlugFilter":10,"withCleanTranscript":10,"since":"24h","slugs":["kodiack-dashboard","ai-jason","ai-susan"]}
+[2026-01-02T22:06:03.330Z] [INFO] [Jason:CLI] Found 10 sessions to process
+[2026-01-02T22:06:03.330Z] [INFO] [Jason:CLI] Processing session: 9b406a6b-3f7f-447a-bf92-f2582bb588c9 {"slug":"kodiack-dashboard","created":"2026-01-02T21:37:44.613Z"}
+[2026-01-02T22:06:03.333Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"9b406a6b-3f7f-447a-bf92-f2582bb588c9","contentLength":10194,"fileRefs":8,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.334Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"9b406a6b-3f7f-447a-bf92-f2582bb588c9","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.338Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.345Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.349Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"9b406a6b-3f7f-447a-bf92-f2582bb588c9","items":1,"duplicates":0}
+[2026-01-02T22:06:03.350Z] [INFO] [Jason:CLI] Processing session: 78a7d4d5-f4bd-4efb-8c3c-4f4dddab4f5a {"slug":"kodiack-dashboard","created":"2026-01-02T21:27:44.612Z"}
+[2026-01-02T22:06:03.353Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"78a7d4d5-f4bd-4efb-8c3c-4f4dddab4f5a","contentLength":5991,"fileRefs":0,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.353Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"78a7d4d5-f4bd-4efb-8c3c-4f4dddab4f5a","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.354Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.358Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.361Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"78a7d4d5-f4bd-4efb-8c3c-4f4dddab4f5a","items":1,"duplicates":0}
+[2026-01-02T22:06:03.362Z] [INFO] [Jason:CLI] Processing session: fbe0e94d-9dd0-495c-a4ec-69f13750b2a2 {"slug":"kodiack-dashboard","created":"2026-01-02T20:57:44.614Z"}
+[2026-01-02T22:06:03.365Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"fbe0e94d-9dd0-495c-a4ec-69f13750b2a2","contentLength":1822,"fileRefs":25,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.366Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"fbe0e94d-9dd0-495c-a4ec-69f13750b2a2","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.367Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.371Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.377Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"fbe0e94d-9dd0-495c-a4ec-69f13750b2a2","items":1,"duplicates":0}
+[2026-01-02T22:06:03.378Z] [INFO] [Jason:CLI] Processing session: 977791d9-4f7c-4572-842d-a356ab2e5ebb {"slug":"kodiack-dashboard","created":"2026-01-02T20:07:44.601Z"}
+[2026-01-02T22:06:03.380Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"977791d9-4f7c-4572-842d-a356ab2e5ebb","contentLength":269,"fileRefs":3,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.381Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"977791d9-4f7c-4572-842d-a356ab2e5ebb","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.381Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.384Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.388Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"977791d9-4f7c-4572-842d-a356ab2e5ebb","items":1,"duplicates":0}
+[2026-01-02T22:06:03.389Z] [INFO] [Jason:CLI] Processing session: 1567c3b0-75fa-4450-aa0d-a4dfc39b7082 {"slug":"kodiack-dashboard","created":"2026-01-02T19:37:44.618Z"}
+[2026-01-02T22:06:03.391Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"1567c3b0-75fa-4450-aa0d-a4dfc39b7082","contentLength":11828,"fileRefs":5,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.392Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"1567c3b0-75fa-4450-aa0d-a4dfc39b7082","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.392Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.396Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.401Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"1567c3b0-75fa-4450-aa0d-a4dfc39b7082","items":1,"duplicates":0}
+[2026-01-02T22:06:03.402Z] [INFO] [Jason:CLI] Processing session: 8af5b2fc-2c69-43ad-86f3-d71c5da30128 {"slug":"kodiack-dashboard","created":"2026-01-02T19:27:44.606Z"}
+[2026-01-02T22:06:03.404Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"8af5b2fc-2c69-43ad-86f3-d71c5da30128","contentLength":873,"fileRefs":50,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.405Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"8af5b2fc-2c69-43ad-86f3-d71c5da30128","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.405Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.408Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.413Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"8af5b2fc-2c69-43ad-86f3-d71c5da30128","items":1,"duplicates":0}
+[2026-01-02T22:06:03.414Z] [INFO] [Jason:CLI] Processing session: 3676536a-816c-4c5c-ba90-f4d49afdc33c {"slug":"ai-susan","created":"2026-01-02T18:47:44.593Z"}
+[2026-01-02T22:06:03.416Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"3676536a-816c-4c5c-ba90-f4d49afdc33c","contentLength":700,"fileRefs":15,"slug":"ai-susan"}
+[2026-01-02T22:06:03.416Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"3676536a-816c-4c5c-ba90-f4d49afdc33c","slug":"ai-susan","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.416Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"ai-susan","projectId":"93c5a3e6"}
+[2026-01-02T22:06:03.420Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"93c5a3e6"}
+[2026-01-02T22:06:03.424Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"3676536a-816c-4c5c-ba90-f4d49afdc33c","items":1,"duplicates":0}
+[2026-01-02T22:06:03.424Z] [INFO] [Jason:CLI] Processing session: 1f21a433-c69f-449d-b982-941dda4f94d3 {"slug":"ai-jason","created":"2026-01-02T18:09:12.233Z"}
+[2026-01-02T22:06:03.426Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"1f21a433-c69f-449d-b982-941dda4f94d3","contentLength":3804,"fileRefs":16,"slug":"ai-jason"}
+[2026-01-02T22:06:03.427Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"1f21a433-c69f-449d-b982-941dda4f94d3","slug":"ai-jason","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.427Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"ai-jason","projectId":"6872744d"}
+[2026-01-02T22:06:03.430Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"6872744d"}
+[2026-01-02T22:06:03.435Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"1f21a433-c69f-449d-b982-941dda4f94d3","items":1,"duplicates":0}
+[2026-01-02T22:06:03.435Z] [INFO] [Jason:CLI] Processing session: f77d4a2a-cf7b-41e6-b71c-40f4a8d24159 {"slug":"kodiack-dashboard","created":"2026-01-02T17:39:12.232Z"}
+[2026-01-02T22:06:03.438Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"f77d4a2a-cf7b-41e6-b71c-40f4a8d24159","contentLength":164,"fileRefs":19,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.438Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"f77d4a2a-cf7b-41e6-b71c-40f4a8d24159","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.439Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.442Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.446Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"f77d4a2a-cf7b-41e6-b71c-40f4a8d24159","items":1,"duplicates":0}
+[2026-01-02T22:06:03.446Z] [INFO] [Jason:CLI] Processing session: dc532d51-9726-4955-b34a-97ed8a91c421 {"slug":"kodiack-dashboard","created":"2026-01-02T17:19:12.222Z"}
+[2026-01-02T22:06:03.449Z] [INFO] [Jason:LoadTranscript] Loaded clean transcript {"sessionId":"dc532d51-9726-4955-b34a-97ed8a91c421","contentLength":1555,"fileRefs":6,"slug":"kodiack-dashboard"}
+[2026-01-02T22:06:03.449Z] [INFO] [Jason:ExtractItems] Extraction complete {"sessionId":"dc532d51-9726-4955-b34a-97ed8a91c421","slug":"kodiack-dashboard","worklog":1,"todos":0,"bugs":0,"decisions":0}
+[2026-01-02T22:06:03.450Z] [INFO] [Jason:InsertStaging] Resolved project {"slug":"kodiack-dashboard","projectId":"b5500000"}
+[2026-01-02T22:06:03.453Z] [INFO] [Jason:InsertStaging] Staging insert complete {"inserted":1,"duplicates":0,"rejected":0,"projectId":"b5500000"}
+[2026-01-02T22:06:03.457Z] [INFO] [Jason:MarkExtracted] Session marked as extracted {"sessionId":"dc532d51-9726-4955-b34a-97ed8a91c421","items":1,"duplicates":0}
+[2026-01-02T22:06:03.458Z] [INFO] [Jason:CLI] RUN_OK sessions_scanned=10 sessions_processed=10 todos=0 bugs=0 worklogs=10 decisions=0 duplicates=0

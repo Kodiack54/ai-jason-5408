@@ -1,0 +1,26 @@
+{
+  "name": "ai-jason-5408",
+  "version": "1.0.0",
+  "description": "Jason - Guardrailed Extraction Scheduler. Extracts todos/bugs/worklogs/decisions from transcripts.",
+  "main": "src/run.js",
+  "scripts": {
+    "extract": "node src/run.js extract",
+    "extract:dry": "node src/run.js extract --dry-run",
+    "extract:scheduled": "node src/run.js extract --scheduled",
+    "start": "node src/run.js extract --scheduled",
+    "pm2:start": "pm2 start pm2.config.js",
+    "pm2:stop": "pm2 stop jason-5408",
+    "pm2:restart": "pm2 restart jason-5408",
+    "pm2:logs": "pm2 logs jason-5408"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "ajv": "^8.12.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "ws": "^8.16.0"
+  },
+  "author": "Kodiack Studio",
+  "license": "UNLICENSED"
+}
